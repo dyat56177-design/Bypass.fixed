@@ -1,0 +1,18 @@
+{
+  "name": "ngebypass-safelinku",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SafeLink destination resolver with redirect validation",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ipaddr.js": "^2.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^41.6.2"
+  }
+}
